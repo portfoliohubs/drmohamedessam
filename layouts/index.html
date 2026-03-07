@@ -1127,7 +1127,7 @@
             <div class="hero-content">
                 <div class="profile-image-container">
                     <img 
-                        src="{{ .Site.Params.hero.profile_image }}" 
+                        src="{{ .Site.Params.hero.profile_image | relURL }}" 
                         alt="{{ .Site.Params.hero.profile_image_alt }}"
                         data-alt-en="{{ .Site.Params.hero.profile_image_alt }}"
                         data-alt-ar="{{ .Site.Params.ar.hero.profile_image_alt }}"
@@ -1309,7 +1309,7 @@
                                 {{ range .cases }}
                                     <div class="case-card">
                                         <div class="case-image-wrapper single">
-                                            <img src="{{ .photo }}" alt="{{ .alt | default .description }}" data-alt-en="{{ .alt | default .description }}" data-alt-ar="{{ .alt_ar | default (.alt | default .description) }}" class="case-image" loading="lazy">
+                                            <img src="{{ .photo | relURL }}" alt="{{ .alt | default .description }}" data-alt-en="{{ .alt | default .description }}" data-alt-ar="{{ .alt_ar | default (.alt | default .description) }}" class="case-image" loading="lazy">
                                         </div>
                                         <div class="case-description">
                                             <p data-en="{{ .description }}" data-ar="{{ .description_ar | default .description }}">{{ .description }}</p>
