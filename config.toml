@@ -1,0 +1,379 @@
+baseURL = "https://portfoliohubs.github.io/drmohamedessam/"
+languageCode = "en-us"
+title = "Dr. Mohamed Essam"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Mohamed Essam"
+    tagline = "Dentist"
+    graduation = "Graduated 2024 - Faculty of Dentistry"
+    profile_image = "/images/profile.jpg"
+    profile_image_alt = "Profile photo of Dr. Mohamed Essam"
+    
+    [params.hero.current_position]
+      role = "Dentist"
+      clinic = "Al mona hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Mohamed Essam"
+    doctor_name_ar = "د. محمد عصام نبيل"
+    site_name = "Dr. Mohamed Essam"
+    og_image = "/images/logo.png"
+    favicon_image = "/images/logo.png"
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Mohamed Essam",
+      "MUST University",
+      "DENTIST IN EGYPT",
+      "DENTAL CLINIC IN EGYPT",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. محمد عصام نبيل",
+      "مصر للعلوم والتكنولوجيا",
+      "طبيب في مصر",
+      "عيادة في مصر",
+      "دكتور محمد عصام نبيل",
+      "عيادة محمد عصام نبيل",
+      "عيادة اسنان",
+      "محمد عصام نبيل اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Oral surgery",
+      "Endo",
+      "Fixed prosthodontics",
+      "Composite"
+    ]
+    
+    digital = [
+      "DSD",
+      "Power point"
+    ]
+    
+    soft = [
+      "Patient management"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "MUST University"
+    graduation_year = "2024"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2019"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative and esthetics"
+    category_ar = "الحشو العادى والتجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "/images/1.jpg"
+      alt = "الحالة الاولى"
+      description = "الحالة الاولى"
+      alt_ar = "الحالة الاولى"
+      description_ar = "الحالة الاولى"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis (fixed & Removable)"
+    category_ar = "تركيبات ثابتة ومتحركة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "/images/2.jpg"
+      alt = "الحالة الثانية"
+      description = "الحالة الثانية"
+      alt_ar = "الحالة الثانية"
+      description_ar = "الحالة الثانية"
+
+    [[params.clinical_cases.cases]]
+      photo = "/images/3.jpg"
+      alt = "الحالة الثالثة"
+      description = "الحالة الثالثة"
+      alt_ar = "الحالة الثالثة"
+      description_ar = "الحالة الثالثة"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو العصب(علاج الجذور)"
+    
+    [[params.clinical_cases.cases]]
+      photo = "/images/4.jpg"
+      alt = "الحالة الرابعة"
+      description = "الحالة الرابعة"
+      alt_ar = "الحالة الرابعة"
+      description_ar = "الحالة الرابعة"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Cosmetic Dentistry"
+    category_ar = "طب تجميل الأسنان"
+    
+    [[params.clinical_cases.cases]]
+      photo = "/images/5.jpg"
+      alt = "الحالة الخامسة"
+      description = "الحالة الخامسة"
+      alt_ar = "الحالة الخامسة"
+      description_ar = "الحالة الخامسة"
+
+    [[params.clinical_cases.cases]]
+      photo = "/images/6.jpg"
+      alt = "الحالة السادسة"
+      description = "الحالة السادسة"
+      alt_ar = "الحالة السادسة"
+      description_ar = "الحالة السادسة"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Oral Surgery"
+    category_ar = "جراحة الفم"
+    
+    [[params.clinical_cases.cases]]
+      photo = "/images/7.jpg"
+      alt = "الحالة السابعة"
+      description = "الحالة السابعة"
+      alt_ar = "الحالة السابعة"
+      description_ar = "الحالة السابعة"
+
+    [[params.clinical_cases.cases]]
+      photo = "/images/8.jpg"
+      alt = "الحالة الثامنة"
+      description = "الحالة الثامنة"
+      alt_ar = "الحالة الثامنة"
+      description_ar = "الحالة الثامنة"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Periodontics"
+    category_ar = "علاج أمراض اللثة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "/images/9.jpg"
+      alt = "الحالة التاسعة"
+      description = "الحالة التاسعة"
+      alt_ar = "الحالة التاسعة"
+      description_ar = "الحالة التاسعة"
+
+    [[params.clinical_cases.cases]]
+      photo = "/images/10.jpg"
+      alt = "الحالة العاشرة"
+      description = "الحالة العاشرة"
+      alt_ar = "الحالة العاشرة"
+      description_ar = "الحالة العاشرة"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Pediatric Dentistry"
+    category_ar = "طب أسنان الأطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "/images/11.jpg"
+      alt = "الحالة الحادية عشر"
+      description = "الحالة الحادية عشر"
+      alt_ar = "الحالة الحادية عشر"
+      description_ar = "الحالة الحادية عشر"
+
+    [[params.clinical_cases.cases]]
+      photo = "/images/12.jpg"
+      alt = "الحالة الثانية عشر"
+      description = "الحالة الثانية عشر"
+      alt_ar = "الحالة الثانية عشر"
+      description_ar = "الحالة الثانية عشر"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201007951857"
+    whatsapp = "+201007951857"
+    email = "mohamedtayeanabeel@gmail.com"
+    instagram = ""
+    facebook = "https://www.facebook.com/share/1JLubzvr3N/"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "زاوية دهشور مركز البدرشين محافظة الجيزة"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. محمد عصام نبيل"
+    tagline = "طبيب اسنان"
+    graduation = "تخرج 2024 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور محمد عصام نبيل"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب اسنان"
+      clinic = "مستشفي المني"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحة",
+      "حشو عصب",
+      "تركيبات ثابتة",
+      "كومبوزيت"
+    ]
+    
+    digital = [
+      "Dental photography",
+      "Social media dental content"
+    ]
+    
+    soft = [
+      "إدارة الوقت"
+    ]
+    
+  
+  [params.ar.education]
+    university = "مصر للعلوم والتكنولوجيا"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2019 سنة الالتحاق"
+    
+    [[params.ar.education.timeline]]
+      event = "2024 سنة التخرج"  
+
+  [params.ar.contact.location]
+    address = "زاوية دهشور مركز البدرشين محافظة الجيزة"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
