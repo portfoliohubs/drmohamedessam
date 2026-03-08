@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Mohamed Essam"
     tagline = "Dentist"
     graduation = "Graduated 2024 - Faculty of Dentistry"
-    profile_image = "https://github.com/user-attachments/assets/028dba96-8f03-4bd6-a2ff-fb1cb6a66e7b"
+    profile_image = "https://github.com/user-attachments/assets/7cef228b-b162-4579-985f-24fa77f1da7a"
     profile_image_alt = "Profile photo of Dr. Mohamed Essam"
     
     [params.hero.current_position]
