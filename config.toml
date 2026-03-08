@@ -120,6 +120,8 @@ defaultContentLanguage = "en"
     ]
     
     digital = [
+      "Dental photography",
+      "Social media dental content",
       "DSD",
       "Power point"
     ]
@@ -314,7 +316,9 @@ defaultContentLanguage = "en"
     
     digital = [
       "Dental photography",
-      "Social media dental content"
+      "Social media dental content",
+      "DSD",
+      "Power point"
     ]
     
     soft = [
