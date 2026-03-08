@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Mohamed Essam"
     tagline = "Dentist"
     graduation = "Graduated 2024 - Faculty of Dentistry"
-    profile_image = "/images/profile.jpg"
+    profile_image = "https://github.com/user-attachments/assets/028dba96-8f03-4bd6-a2ff-fb1cb6a66e7b"
     profile_image_alt = "Profile photo of Dr. Mohamed Essam"
     
     [params.hero.current_position]
@@ -21,8 +21,8 @@ defaultContentLanguage = "en"
     doctor_name_en = "Dr. Mohamed Essam"
     doctor_name_ar = "د. محمد عصام نبيل"
     site_name = "Dr. Mohamed Essam"
-    og_image = "/images/logo.png"
-    favicon_image = "/images/logo.png"
+    og_image = "https://github.com/user-attachments/assets/3a27d9b9-1a31-422f-a78a-618ac803c07b"
+    favicon_image = "https://github.com/user-attachments/assets/3a27d9b9-1a31-422f-a78a-618ac803c07b"
     twitter_handle = ""
     keywords = [
       "dentist",
@@ -154,7 +154,7 @@ defaultContentLanguage = "en"
     category_ar = "الحشو العادى والتجميلى"
     
     [[params.clinical_cases.cases]]
-      photo = "/images/1.jpg"
+      photo = "https://github.com/user-attachments/assets/adb519b2-86a3-4160-add0-a324873bd4d5"
       alt = "الحالة الاولى"
       description = "الحالة الاولى"
       alt_ar = "الحالة الاولى"
@@ -166,14 +166,14 @@ defaultContentLanguage = "en"
     category_ar = "تركيبات ثابتة ومتحركة"
     
     [[params.clinical_cases.cases]]
-      photo = "/images/2.jpg"
+      photo = "https://github.com/user-attachments/assets/7194dec9-cf24-4679-9182-ad972970d19e"
       alt = "الحالة الثانية"
       description = "الحالة الثانية"
       alt_ar = "الحالة الثانية"
       description_ar = "الحالة الثانية"
 
     [[params.clinical_cases.cases]]
-      photo = "/images/3.jpg"
+      photo = "https://github.com/user-attachments/assets/4e11e84b-dfb4-4a28-bc74-f92061f8c98a"
       alt = "الحالة الثالثة"
       description = "الحالة الثالثة"
       alt_ar = "الحالة الثالثة"
@@ -185,7 +185,7 @@ defaultContentLanguage = "en"
     category_ar = "حشو العصب(علاج الجذور)"
     
     [[params.clinical_cases.cases]]
-      photo = "/images/4.jpg"
+      photo = "https://github.com/user-attachments/assets/f15189ef-9444-481b-b594-f977faa3a0d1"
       alt = "الحالة الرابعة"
       description = "الحالة الرابعة"
       alt_ar = "الحالة الرابعة"
@@ -197,14 +197,14 @@ defaultContentLanguage = "en"
     category_ar = "طب تجميل الأسنان"
     
     [[params.clinical_cases.cases]]
-      photo = "/images/5.jpg"
+      photo = "https://github.com/user-attachments/assets/e3b4768e-be1f-42b8-a527-e9cb09b6fd6f"
       alt = "الحالة الخامسة"
       description = "الحالة الخامسة"
       alt_ar = "الحالة الخامسة"
       description_ar = "الحالة الخامسة"
 
     [[params.clinical_cases.cases]]
-      photo = "/images/6.jpg"
+      photo = "https://github.com/user-attachments/assets/ce00f9cc-78d6-4f4f-92e5-a55519e6cf7e"
       alt = "الحالة السادسة"
       description = "الحالة السادسة"
       alt_ar = "الحالة السادسة"
@@ -216,14 +216,14 @@ defaultContentLanguage = "en"
     category_ar = "جراحة الفم"
     
     [[params.clinical_cases.cases]]
-      photo = "/images/7.jpg"
+      photo = "https://github.com/user-attachments/assets/f23eebea-82bf-4018-a9ba-f96040bd70c5"
       alt = "الحالة السابعة"
       description = "الحالة السابعة"
       alt_ar = "الحالة السابعة"
       description_ar = "الحالة السابعة"
 
     [[params.clinical_cases.cases]]
-      photo = "/images/8.jpg"
+      photo = "https://github.com/user-attachments/assets/86b2271d-d933-4c43-96d6-18a1411546bb"
       alt = "الحالة الثامنة"
       description = "الحالة الثامنة"
       alt_ar = "الحالة الثامنة"
@@ -235,14 +235,14 @@ defaultContentLanguage = "en"
     category_ar = "علاج أمراض اللثة"
     
     [[params.clinical_cases.cases]]
-      photo = "/images/9.jpg"
+      photo = "https://github.com/user-attachments/assets/08c21212-ffba-4b92-89fc-13eb4e92312d"
       alt = "الحالة التاسعة"
       description = "الحالة التاسعة"
       alt_ar = "الحالة التاسعة"
       description_ar = "الحالة التاسعة"
 
     [[params.clinical_cases.cases]]
-      photo = "/images/10.jpg"
+      photo = "https://github.com/user-attachments/assets/5f035b38-92ed-4516-a820-855b3aaf5875"
       alt = "الحالة العاشرة"
       description = "الحالة العاشرة"
       alt_ar = "الحالة العاشرة"
@@ -254,14 +254,14 @@ defaultContentLanguage = "en"
     category_ar = "طب أسنان الأطفال"
     
     [[params.clinical_cases.cases]]
-      photo = "/images/11.jpg"
+      photo = "https://github.com/user-attachments/assets/8ae3d1b0-2ad2-4769-beec-b2f88a19741e"
       alt = "الحالة الحادية عشر"
       description = "الحالة الحادية عشر"
       alt_ar = "الحالة الحادية عشر"
       description_ar = "الحالة الحادية عشر"
 
     [[params.clinical_cases.cases]]
-      photo = "/images/12.jpg"
+      photo = "https://github.com/user-attachments/assets/7fba40c2-1445-42a9-b5c0-fef44acdbb1d"
       alt = "الحالة الثانية عشر"
       description = "الحالة الثانية عشر"
       alt_ar = "الحالة الثانية عشر"
