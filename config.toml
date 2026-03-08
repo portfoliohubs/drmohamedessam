@@ -155,10 +155,10 @@ defaultContentLanguage = "en"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/adb519b2-86a3-4160-add0-a324873bd4d5"
-      alt = "الحالة الاولى"
-      description = "الحالة الاولى"
-      alt_ar = "الحالة الاولى"
-      description_ar = "الحالة الاولى"
+      alt = "Refilling"
+      description = "Refilling"
+      alt_ar = "إعادة حشو الامالجم بالكومبوزيت"
+      description_ar = "إعادة حشو الامالجم بالكومبوزيت"
 
   [[params.clinical_cases]]
     enabled = true
@@ -167,105 +167,110 @@ defaultContentLanguage = "en"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/7194dec9-cf24-4679-9182-ad972970d19e"
-      alt = "الحالة الثانية"
-      description = "الحالة الثانية"
-      alt_ar = "الحالة الثانية"
-      description_ar = "الحالة الثانية"
+      alt = "Full smile rehabilitation"
+      description = "Full smile rehabilitation"
+      alt_ar = "إعادة تأهيل للإبتسامة"
+      description_ar = "إعادة تأهيل للإبتسامة"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/4e11e84b-dfb4-4a28-bc74-f92061f8c98a"
-      alt = "الحالة الثالثة"
-      description = "الحالة الثالثة"
-      alt_ar = "الحالة الثالثة"
-      description_ar = "الحالة الثالثة"
+      alt = "Destructed 4&5"
+      description = "Destructed 4&5"
+      alt_ar = "إعادة ترميم"
+      description_ar = "إعادة ترميم"
 
   [[params.clinical_cases]]
     enabled = true
     category = "Endodontics"
-    category_ar = "حشو العصب(علاج الجذور)"
+    category_ar = "اندو"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/f15189ef-9444-481b-b594-f977faa3a0d1"
-      alt = "الحالة الرابعة"
-      description = "الحالة الرابعة"
-      alt_ar = "الحالة الرابعة"
-      description_ar = "الحالة الرابعة"
+      alt = "Endo 4&5"
+      description = "Endo 4&5"
+      alt_ar = "حشو عصب"
+      description_ar = "حشو عصب"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Cosmetic Dentistry"
-    category_ar = "طب تجميل الأسنان"
+    category = "Endodontics"
+    category_ar = "اندو"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/e3b4768e-be1f-42b8-a527-e9cb09b6fd6f"
-      alt = "الحالة الخامسة"
-      description = "الحالة الخامسة"
-      alt_ar = "الحالة الخامسة"
-      description_ar = "الحالة الخامسة"
+      alt = "Endo for wisdoms"
+      description = "Endo for wisdoms"
+      alt_ar = "اندو لضروس العقل"
+      description_ar = "اندو لضروس العقل"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/ce00f9cc-78d6-4f4f-92e5-a55519e6cf7e"
-      alt = "الحالة السادسة"
-      description = "الحالة السادسة"
-      alt_ar = "الحالة السادسة"
-      description_ar = "الحالة السادسة"
+      alt = "Access cavity"
+      description = "Access cavity"
+      alt_ar = "القنوات"
+      description_ar = "القنوات"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Oral Surgery"
-    category_ar = "جراحة الفم"
+    category = "Endodontics"
+    category_ar = "اندو"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/f23eebea-82bf-4018-a9ba-f96040bd70c5"
-      alt = "الحالة السابعة"
-      description = "الحالة السابعة"
-      alt_ar = "الحالة السابعة"
-      description_ar = "الحالة السابعة"
+      alt = "Deep apical split"
+      description = "Deep apical split"
+      alt_ar = "انشطار داخلي"
+      description_ar = "انشطار داخلي"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/86b2271d-d933-4c43-96d6-18a1411546bb"
-      alt = "الحالة الثامنة"
-      description = "الحالة الثامنة"
-      alt_ar = "الحالة الثامنة"
-      description_ar = "الحالة الثامنة"
+      alt = "Composite"
+      description = "Composite"
+      alt_ar = "حشوات عادية عميقة"
+      description_ar = "حشوات عادية عميقة"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Periodontics"
-    category_ar = "علاج أمراض اللثة"
+    category = "Crown"
+    category_ar = "كراون"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/08c21212-ffba-4b92-89fc-13eb4e92312d"
-      alt = "الحالة التاسعة"
-      description = "الحالة التاسعة"
-      alt_ar = "الحالة التاسعة"
-      description_ar = "الحالة التاسعة"
+      alt = "Bridge retreatment"
+      description = "Bridge retreatment"
+      alt_ar = "إعادة تركيبة أمامية"
+      description_ar = "إعادة تركيبة أمامية"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/5f035b38-92ed-4516-a820-855b3aaf5875"
-      alt = "الحالة العاشرة"
-      description = "الحالة العاشرة"
-      alt_ar = "الحالة العاشرة"
-      description_ar = "الحالة العاشرة"
+      alt = "Bridge retreatment"
+      description = "Bridge retreatment"
+      alt_ar = "إعادة كوبري"
+      description_ar = "إعادة كوبري"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Pediatric Dentistry"
-    category_ar = "طب أسنان الأطفال"
+    category = "Pediatric"
+    category_ar = "بيدو"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/8ae3d1b0-2ad2-4769-beec-b2f88a19741e"
-      alt = "الحالة الحادية عشر"
-      description = "الحالة الحادية عشر"
-      alt_ar = "الحالة الحادية عشر"
-      description_ar = "الحالة الحادية عشر"
+      alt = "GA for pediatric patient"
+      description = "GA for pediatric patient"
+      alt_ar = "بنج كلي للاطفال"
+      description_ar = "بنج كلي للاطفال"
 
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Prosthesis"
+    category_ar = "بروسيزس"
+    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/7fba40c2-1445-42a9-b5c0-fef44acdbb1d"
-      alt = "الحالة الثانية عشر"
-      description = "الحالة الثانية عشر"
-      alt_ar = "الحالة الثانية عشر"
-      description_ar = "الحالة الثانية عشر"
+      alt = "Removable prosthesis"
+      description = "Removable prosthesis"
+      alt_ar = "تركيبة متحركة"
+      description_ar = "تركيبة متحركة"
       
   # Contact Section
   [params.contact]
