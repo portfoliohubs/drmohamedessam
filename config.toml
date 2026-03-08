@@ -36,6 +36,14 @@ defaultContentLanguage = "en"
       "DENTAL CLINIC"
     ]
     keywords_ar = [
+      "دكتور محمد عصام نبيل",
+      "محمد عصام نبيل",
+      "محمد طايع نبيل",
+      "دكتور محمد طايع نبيل",
+      "محمد عصام",
+      "محمد طايع",
+      "دكتور محمد عصام",
+      "دكتور محمد طايع",
       "طبيب أسنان",
       "عيادة أسنان",
       "تجميل الأسنان",
@@ -162,8 +170,8 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "prosthesis (fixed & Removable)"
-    category_ar = "تركيبات ثابتة ومتحركة"
+    category = "Prosthesis"
+    category_ar = "بروسيزس"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/7194dec9-cf24-4679-9182-ad972970d19e"
@@ -179,6 +187,13 @@ defaultContentLanguage = "en"
       alt_ar = "إعادة ترميم"
       description_ar = "إعادة ترميم"
 
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/7fba40c2-1445-42a9-b5c0-fef44acdbb1d"
+      alt = "Removable prosthesis"
+      description = "Removable prosthesis"
+      alt_ar = "تركيبة متحركة"
+      description_ar = "تركيبة متحركة"
+
   [[params.clinical_cases]]
     enabled = true
     category = "Endodontics"
@@ -191,11 +206,6 @@ defaultContentLanguage = "en"
       alt_ar = "حشو عصب"
       description_ar = "حشو عصب"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Endodontics"
-    category_ar = "اندو"
-    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/e3b4768e-be1f-42b8-a527-e9cb09b6fd6f"
       alt = "Endo for wisdoms"
@@ -210,11 +220,6 @@ defaultContentLanguage = "en"
       alt_ar = "القنوات"
       description_ar = "القنوات"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Endodontics"
-    category_ar = "اندو"
-    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/f23eebea-82bf-4018-a9ba-f96040bd70c5"
       alt = "Deep apical split"
@@ -284,8 +289,8 @@ defaultContentLanguage = "en"
     [params.contact.location]
       enabled = true
       address = "زاوية دهشور مركز البدرشين محافظة الجيزة"
-      latitude = "30.585070727964393"
-      longitude = "31.487296675825437"
+      latitude = "29.7508605"
+      longitude = "31.2311579"
 
 # Arabic Translations
 [params.ar]
